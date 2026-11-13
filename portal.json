@@ -1,0 +1,260 @@
+{
+ "portal": "BuildEase ICF Project Environment",
+ "project": {
+  "client": "Demo (made-up) - headless pipeline smoke test",
+  "job": "The Maples - detached 2-storey house in Nudura ICF (demo)",
+  "number_prefix": "DEMO-001",
+  "status": "QUOTATION",
+  "revision": "Q01",
+  "model_title": "DEMO-001 The Maples - detached 2-storey house in Nudura ICF (demo) - Quotation Q01"
+ },
+ "default_view": "stage-4",
+ "views": [
+  {
+   "id": "stage-1",
+   "kind": "stage",
+   "n": 1,
+   "title": "Footing course",
+   "desc": "Nudura ICF footing course (FB) on the foundation - two courses set out from every corner on Nudura Bond, webs on the grid. Indicative foundation by others / engineer to design.",
+   "focus": false
+  },
+  {
+   "id": "stage-2",
+   "kind": "stage",
+   "n": 2,
+   "title": "Ground floor ICF walls + openings",
+   "desc": "Nudura 6.6in XR35 ground-floor walls, 6 courses to the first-floor level, every form as it would be laid; ground-floor window and door openings formed with end caps and lintel bucks (front WC window, entrance door, living window, rear kitchen/dining bifold).",
+   "focus": false
+  },
+  {
+   "id": "stage-3",
+   "kind": "stage",
+   "n": 3,
+   "title": "First floor ICF walls + openings",
+   "desc": "Nudura 6.6in XR35 first-floor walls, 6 courses, gables raked to the roof; first-floor window openings formed with end caps and lintel bucks (bathroom, bedroom windows front and rear).",
+   "focus": false
+  },
+  {
+   "id": "stage-4",
+   "kind": "stage",
+   "n": 4,
+   "title": "Roof (indicative)",
+   "desc": "Indicative gable roof envelope (30 deg, Fink trusses @600 to the detached spec) - shown as the roof planes; truss structure and coverings to be detailed. Demo model carries the roof as planes, not individual trusses.",
+   "focus": false
+  },
+  {
+   "id": "elev-N",
+   "kind": "elevation",
+   "n": 4,
+   "title": "North elevation",
+   "dir": [
+    0.0,
+    0.12,
+    -1.0
+   ],
+   "desc": "Complete structure seen from the north."
+  },
+  {
+   "id": "elev-S",
+   "kind": "elevation",
+   "n": 4,
+   "title": "South elevation",
+   "dir": [
+    0.0,
+    0.12,
+    1.0
+   ],
+   "desc": "Complete structure seen from the south."
+  },
+  {
+   "id": "elev-E",
+   "kind": "elevation",
+   "n": 4,
+   "title": "East elevation",
+   "dir": [
+    1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the east."
+  },
+  {
+   "id": "elev-W",
+   "kind": "elevation",
+   "n": 4,
+   "title": "West elevation",
+   "dir": [
+    -1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the west."
+  }
+ ],
+ "stages": [
+  {
+   "n": 1,
+   "title": "Footing course",
+   "desc": "Nudura ICF footing course (FB) on the foundation - two courses set out from every corner on Nudura Bond, webs on the grid. Indicative foundation by others / engineer to design.",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 921432
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Ground floor ICF walls + openings",
+   "desc": "Nudura 6.6in XR35 ground-floor walls, 6 courses to the first-floor level, every form as it would be laid; ground-floor window and door openings formed with end caps and lintel bucks (front WC window, entrance door, living window, rear kitchen/dining bifold).",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 2625128
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "First floor ICF walls + openings",
+   "desc": "Nudura 6.6in XR35 first-floor walls, 6 courses, gables raked to the roof; first-floor window openings formed with end caps and lintel bucks (bathroom, bedroom windows front and rear).",
+   "files": [
+    {
+     "glb": "stage-3.glb",
+     "part": null,
+     "label": null,
+     "bytes": 3356616
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Roof (indicative)",
+   "desc": "Indicative gable roof envelope (30 deg, Fink trusses @600 to the detached spec) - shown as the roof planes; truss structure and coverings to be detailed. Demo model carries the roof as planes, not individual trusses.",
+   "files": [
+    {
+     "glb": "stage-4.glb",
+     "part": null,
+     "label": null,
+     "bytes": 4112
+    }
+   ]
+  }
+ ],
+ "groups": [
+  {
+   "id": "quote",
+   "title": "Quotation",
+   "note": "The Nudura ICF supply proposal (NET GBP 15,356.75 net / GBP 18,428.10 incl VAT: materials, pre-cut service, alignment hire 4 weeks; haulage TBC). Quotation - not for construction (demo).",
+   "zip": {
+    "file": "downloads/DEMO-001 Quotation.zip",
+    "bytes": 333800,
+    "count": 1
+   },
+   "docs": [
+    {
+     "id": "DEMO-001-PR-01",
+     "title": "Quotation - Nudura ICF supply",
+     "file": "docs/quote/DEMO-001-PR-01 Quotation - Nudura ICF supply.pdf",
+     "pages": 4,
+     "thumb": "thumbs/DEMO-001-PR-01.png",
+     "bytes": 365333,
+     "number": "DEMO-001-PR-01",
+     "view": "stage-4",
+     "view_opts": {}
+    }
+   ]
+  },
+  {
+   "id": "icf",
+   "title": "ICF drawings",
+   "note": "ICF general arrangements (overall, ground floor, first floor), the elevations and a section A-A.",
+   "zip": {
+    "file": "downloads/DEMO-001 ICF drawings.zip",
+    "bytes": 297638,
+    "count": 6
+   },
+   "docs": [
+    {
+     "id": "DEMO-001-GA-01",
+     "title": "The Maples ICF General Arrangement",
+     "file": "docs/icf/DEMO-001-GA-01 The Maples ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/DEMO-001-GA-01.png",
+     "bytes": 54810,
+     "number": "DEMO-001-GA-01",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "DEMO-001-GA-02",
+     "title": "Ground Floor ICF General Arrangement",
+     "file": "docs/icf/DEMO-001-GA-02 Ground Floor ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/DEMO-001-GA-02.png",
+     "bytes": 56737,
+     "number": "DEMO-001-GA-02",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "DEMO-001-GA-03",
+     "title": "First Floor ICF General Arrangement",
+     "file": "docs/icf/DEMO-001-GA-03 First Floor ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/DEMO-001-GA-03.png",
+     "bytes": 56603,
+     "number": "DEMO-001-GA-03",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "DEMO-001-EL-01",
+     "title": "North and South Elevations",
+     "file": "docs/icf/DEMO-001-EL-01 North and South Elevations.pdf",
+     "pages": 1,
+     "thumb": "thumbs/DEMO-001-EL-01.png",
+     "bytes": 72689,
+     "number": "DEMO-001-EL-01",
+     "view": "elev-N",
+     "view_opts": {}
+    },
+    {
+     "id": "DEMO-001-EL-02",
+     "title": "East and West Elevations",
+     "file": "docs/icf/DEMO-001-EL-02 East and West Elevations.pdf",
+     "pages": 1,
+     "thumb": "thumbs/DEMO-001-EL-02.png",
+     "bytes": 72232,
+     "number": "DEMO-001-EL-02",
+     "view": "elev-E",
+     "view_opts": {}
+    },
+    {
+     "id": "DEMO-001-SE-01",
+     "title": "Section A-A",
+     "file": "docs/icf/DEMO-001-SE-01 Section A-A.pdf",
+     "pages": 1,
+     "thumb": "thumbs/DEMO-001-SE-01.png",
+     "bytes": 58850,
+     "number": "DEMO-001-SE-01",
+     "view": "stage-4",
+     "view_opts": {}
+    }
+   ]
+  }
+ ],
+ "focus": null,
+ "isolate_stages": false,
+ "toggles": [],
+ "download_all": {
+  "file": "downloads/DEMO-001 The Maples - detached 2-storey house in Nudura ICF (demo) - Quotation Q01.zip",
+  "bytes": 631472,
+  "count": 7,
+  "title": "Download everything"
+ }
+}

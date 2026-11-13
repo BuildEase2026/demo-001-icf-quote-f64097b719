@@ -1,0 +1,58 @@
+{
+ "job": "The Maples - detached 2-storey house in Nudura ICF (demo)",
+ "revision": "Q01",
+ "stages": [
+  {
+   "n": 1,
+   "title": "Footing course",
+   "desc": "Nudura ICF footing course (FB) on the foundation - two courses set out from every corner on Nudura Bond, webs on the grid. Indicative foundation by others / engineer to design.",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 921432
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Ground floor ICF walls + openings",
+   "desc": "Nudura 6.6in XR35 ground-floor walls, 6 courses to the first-floor level, every form as it would be laid; ground-floor window and door openings formed with end caps and lintel bucks (front WC window, entrance door, living window, rear kitchen/dining bifold).",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 2625128
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "First floor ICF walls + openings",
+   "desc": "Nudura 6.6in XR35 first-floor walls, 6 courses, gables raked to the roof; first-floor window openings formed with end caps and lintel bucks (bathroom, bedroom windows front and rear).",
+   "files": [
+    {
+     "glb": "stage-3.glb",
+     "part": null,
+     "label": null,
+     "bytes": 3356616
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Roof (indicative)",
+   "desc": "Indicative gable roof envelope (30 deg, Fink trusses @600 to the detached spec) - shown as the roof planes; truss structure and coverings to be detailed. Demo model carries the roof as planes, not individual trusses.",
+   "files": [
+    {
+     "glb": "stage-4.glb",
+     "part": null,
+     "label": null,
+     "bytes": 4112
+    }
+   ]
+  }
+ ]
+}
